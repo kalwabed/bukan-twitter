@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.0.0/modern-normalize.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/b15bf04e5d.js" crossorigin="anonymous"></script>
+  <title>Register</title>
+</head>
+
+<body>
+  <main>
+    <section class="container mt-4 d-flex justify-content-center">
+      <div class="card w-50">
+        <div class="card-header border-bottom-0" style="background-color: #ffff;">
+          <div class="row align-items-center">
+            <div class="col-md-10">
+              <div class="d-flex justify-content-center">
+                <i class="fab fa-twitter fa-2x fa-fw" style="color: #1da1f2;"></i>
+              </div>
+            </div>
+            <div class="col">
+              <div class="d-flex justify-content-end">
+                <button class="btn btn-sm btn-primary disabled font-weight-bold">Next</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <h4 class="card-title font-weight-bold">Create your account</h4>
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" class="form-control" placeholder="" aria-describedby="helpId">
+            </div>
+            <div class="form-group">
+              <label for="phone" id='phoneLabel'>Phone</label>
+              <input type="tel" name="phone" id="phone" class="form-control" placeholder="" aria-describedby="helpId">
+            </div>
+            <a href="#" class="my-2" id="useEmail">Use email instead</a>
+
+            <h4 class="card-title font-weight-bold mt-3">You'll need a password</h4>
+            <div class="form-group">
+              <small id="helpId" class="text-muted">Make sure it's 8 characters or more</small>
+              <input type="password" name="password" id="password" class="form-control" placeholder=""
+                aria-describedby="helpId">
+            </div>
+            <a href="#" class="my-2" id="revealPassword">Reveal password</a>
+
+            <div class="d-flex flex-column">
+              <span class="font-weight-bold mt-3">Date of birth</span>
+              <span class="text-muted word-wrap">
+                This will not be shown publicly. Confirm your own age, even if this account is for a business, a pet, or
+                something else.
+              </span>
+            </div>
+
+            <div class="row mt-3">
+              <div class="col-5">
+                <div class="form-group">
+                  <label for="month">Month</label>
+                  <select class="custom-select" id="month">
+                    <option selected value="1">January</option>
+                    <option value="2">February</option>
+                    <option value="3">March</option>
+                    <option value="3">May</option>
+                    <option value="3">June</option>
+                    <option value="3">July</option>
+                    <option value="3">August</option>
+                    <option value="3">September</option>
+                    <option value="3">October</option>
+                    <option value="3">November</option>
+                    <option value="3">December</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="form-group">
+                  <label for="day">Day</label>
+                  <select class="custom-select" id="day">
+                    <option selected value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="3">4</option>
+                    <option value="3">5</option>
+                    <option value="3">6</option>
+                    <option value="3">7</option>
+                    <option value="3">8</option>
+                    <option value="3">9</option>
+                    <option value="3">10</option>
+                    <option value="3">11</option>
+                    <option value="3">12</option>
+                    <option value="3">13</option>
+                    <option value="3">14</option>
+                    <option value="3">15</option>
+                    <option value="3">16</option>
+                    <option value="3">17</option>
+                    <option value="3">18</option>
+                    <option value="3">19</option>
+                    <option value="3">20</option>
+                    <option value="3">21</option>
+                    <option value="3">22</option>
+                    <option value="3">23</option>
+                    <option value="3">24</option>
+                    <option value="3">25</option>
+                    <option value="3">26</option>
+                    <option value="3">27</option>
+                    <option value="3">28</option>
+                    <option value="3">29</option>
+                    <option value="3">30</option>
+                    <option value="3">31</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="form-group">
+                  <label for="year">Year</label>
+                  <select class="custom-select" id="year">
+                    <option selected value="1">2000</option>
+                    <option value="1">2001</option>
+                    <option value="1">2002</option>
+                    <option value="1">2003</option>
+                    <option value="1">2004</option>
+                    <option value="1">2005</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+        </div>
+        </form>
+      </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+
+  <script>
+    const phoneInput = document.querySelector('#phone');
+    const phoneLabel = document.getElementById('phoneLabel')
+    const useEmail = document.querySelector('#useEmail')
+    const revealPass = document.querySelector('#revealPassword')
+    const password = document.getElementById('password')
+
+    useEmail.addEventListener('click', function () {
+      if (phoneLabel.innerHTML === 'Phone') {
+        phoneLabel.innerHTML = 'Email'
+        useEmail.innerHTML = 'Use phone instead'
+      } else {
+        phoneLabel.innerHTML = 'Phone'
+        useEmail.innerHTML = 'Use email instead'
+      }
+
+      if (phoneInput.type === 'email') {
+        phoneInput.type = 'tel'
+      } else {
+        phoneInput.type = 'email'
+      }
+    });
+
+    revealPass.addEventListener('click', function () {
+      if (password.type === 'password') {
+        password.type = 'text'
+      } else {
+        password.type = 'password'
+      }
+    });
+  </script>
+</body>
+
+</html>
