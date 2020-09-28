@@ -1,5 +1,11 @@
 .divider {
   padding: 5px;
-  width: 540px;
+  width: 530px;
   height: 3px;
+}
+
+.profile-active {
+  border-bottom-color: #1da1f2;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
 }
