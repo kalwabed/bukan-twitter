@@ -3,8 +3,11 @@
 	"version": "1.0.0",
 	"description": "school project assignment",
 	"scripts": {
-		"start": "sever"
+		"start": "serve"
 	},
 	"author": "Kalwabed Rizki <kalwabedrzk@pm.me>",
-	"license": "MIT"
+	"license": "MIT",
+	"dependencies": {
+		"serve": "^11.3.2"
+	}
 }
